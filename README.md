@@ -1,5 +1,7 @@
 # RHP
 
+[![Build Status](https://travis-ci.org/dabit/rhp.png?branch=master)](https://travis-ci.org/dabit/rhp)
+
 Because, admit it, you miss PHP!
 
 RHP is a Rack extension used to serve .erb files, PHP style!
