@@ -1,5 +1,2 @@
 require "rhp/version"
-
-module Rhp
-  # Your code goes here...
-end
+require "rhp/server"

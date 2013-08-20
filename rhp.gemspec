@@ -5,10 +5,10 @@ require 'rhp/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rhp"
-  spec.version       = Rhp::VERSION
+  spec.version       = RHP::VERSION
   spec.authors       = ["David Padilla"]
   spec.email         = ["david@crowdint.com"]
-  spec.description   = spec.summary = %q{Serve ERB files PHP style!}
+  spec.description   = spec.summary = %q{Serve .rb files, PHP style!}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -19,4 +19,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rr"
 end
