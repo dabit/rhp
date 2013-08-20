@@ -1,6 +1,8 @@
-# Rhp
+# RHP
 
-TODO: Write a gem description
+Because, admit it, you miss PHP!
+
+RHP is a Rack extension used to serve .erb files, PHP style!
 
 ## Installation
 
@@ -18,7 +20,42 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Create a config.ru file:
+
+
+    # config.ru
+
+    require "rhp"
+
+    run RHP::Server
+
+Create a template file, for example `index.erb`
+
+    <% # index.erb %>
+    <% greeting = "Hello World" %>
+
+    <html>
+      <head>
+        <title>RHP Rocks!</title>
+      </head>
+      <body>
+        <h1><%= greeting %>
+      </body>
+    </html>
+
+Start the server:
+
+    rackup
+
+Open a browser, go to `http://127.0.0.1:9292/index.erb`
+
+## Why?
+
+You only live once
+
+## Are you serious?
+
+No
 
 ## Contributing
 
