@@ -10,15 +10,11 @@ RHP is a Rack extension used to serve .erb files, PHP style!
 
 Add this line to your application's Gemfile:
 
-    gem 'rhp'
+    gem 'rhp', github: 'dabit/rhp'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install rhp
 
 ## Usage
 
